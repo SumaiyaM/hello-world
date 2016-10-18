@@ -1,0 +1,13 @@
+//include a header file from Standard Library
+#include <iostream>
+using namespace std;
+//the work of the program starts from function called 'main'
+int main()
+{
+  //use standard(console) to output message "Hello World"
+  cout << "Hello World" << endl;
+  //wait for user to press a key
+  cin.ignore();
+  //return a value to the system when the program finishes its execution successfully
+  return 0;
+}  
